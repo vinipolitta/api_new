@@ -1,8 +1,5 @@
 package com.vinipolitta.api.paciente;
 
-import com.vinipolitta.api.medico.Especialidade;
-import com.vinipolitta.api.medico.Medico;
-
 public record ListagemPacienteDTO(
         Long id,
         String nome,
@@ -11,7 +8,7 @@ public record ListagemPacienteDTO(
 
 ) {
 
-    public ListagemPacienteDTO(Paciente medico) {
-        this(medico.getId(),medico.getNome(), medico.getNome(),medico.isAtivo());
+    public ListagemPacienteDTO(Paciente paciente) {
+        this(paciente.getId(),paciente.getNome(), paciente.getEmail(),paciente.isAtivo());
     }
 }

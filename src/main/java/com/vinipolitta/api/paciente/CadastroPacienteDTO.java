@@ -18,7 +18,6 @@ public record CadastroPacienteDTO(
         @NotBlank
         String telefone,
         @NotBlank
-        @Pattern(regexp = "^\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}$")
         String cpf,
         @NotNull @Valid EnderecoDTO endereco) {
 }
