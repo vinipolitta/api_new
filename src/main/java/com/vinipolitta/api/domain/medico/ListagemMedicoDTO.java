@@ -1,9 +1,4 @@
-package com.vinipolitta.api.medico;
-
-import com.vinipolitta.api.endereco.Endereco;
-import jakarta.persistence.Embedded;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
+package com.vinipolitta.api.domain.medico;
 
 public record ListagemMedicoDTO(
         Long id,

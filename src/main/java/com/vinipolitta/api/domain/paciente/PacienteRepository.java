@@ -1,6 +1,5 @@
-package com.vinipolitta.api.paciente;
+package com.vinipolitta.api.domain.paciente;
 
-import com.vinipolitta.api.medico.Medico;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

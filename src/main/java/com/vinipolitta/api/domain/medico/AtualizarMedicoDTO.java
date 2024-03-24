@@ -1,7 +1,6 @@
-package com.vinipolitta.api.medico;
+package com.vinipolitta.api.domain.medico;
 
-import com.vinipolitta.api.endereco.EnderecoDTO;
-import jakarta.validation.constraints.NotBlank;
+import com.vinipolitta.api.domain.endereco.EnderecoDTO;
 import jakarta.validation.constraints.NotNull;
 
 public record AtualizarMedicoDTO(

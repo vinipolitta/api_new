@@ -1,4 +1,4 @@
-package com.vinipolitta.api.endereco;
+package com.vinipolitta.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

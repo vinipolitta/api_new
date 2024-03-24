@@ -1,6 +1,6 @@
-package com.vinipolitta.api.medico;
+package com.vinipolitta.api.domain.medico;
 
-import com.vinipolitta.api.endereco.Endereco;
+import com.vinipolitta.api.domain.endereco.Endereco;
 
 public record DetalhamentoMedicoDTO(Long id, String nome, String email, String crm, String telefone,
                                     Especialidade especialidade, Endereco endereco) {

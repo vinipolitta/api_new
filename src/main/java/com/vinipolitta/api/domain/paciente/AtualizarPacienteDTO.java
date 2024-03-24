@@ -1,6 +1,6 @@
-package com.vinipolitta.api.paciente;
+package com.vinipolitta.api.domain.paciente;
 
-import com.vinipolitta.api.endereco.EnderecoDTO;
+import com.vinipolitta.api.domain.endereco.EnderecoDTO;
 import jakarta.validation.constraints.NotNull;
 
 public record AtualizarPacienteDTO(

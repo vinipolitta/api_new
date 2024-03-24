@@ -1,4 +1,4 @@
-package com.vinipolitta.api.paciente;
+package com.vinipolitta.api.domain.paciente;
 
 public record ListagemPacienteDTO(
         Long id,

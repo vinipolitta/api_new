@@ -1,4 +1,4 @@
-package com.vinipolitta.api.endereco;
+package com.vinipolitta.api.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

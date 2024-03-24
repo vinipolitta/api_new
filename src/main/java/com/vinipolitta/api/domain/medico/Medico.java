@@ -1,6 +1,6 @@
-package com.vinipolitta.api.medico;
+package com.vinipolitta.api.domain.medico;
 
-import com.vinipolitta.api.endereco.Endereco;
+import com.vinipolitta.api.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

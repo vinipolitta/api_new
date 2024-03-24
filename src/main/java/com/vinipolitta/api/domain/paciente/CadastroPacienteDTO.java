@@ -1,26 +1,21 @@
-package com.vinipolitta.api.medico;
+package com.vinipolitta.api.domain.paciente;
 
-import com.vinipolitta.api.endereco.EnderecoDTO;
+import com.vinipolitta.api.domain.endereco.EnderecoDTO;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 
-public record CadastroMedicoDTO(
+public record CadastroPacienteDTO(
 
         @NotBlank
         String nome,
         @NotBlank
         @Email
         String email,
-
         @NotBlank
         String telefone,
         @NotBlank
-        @Pattern(regexp = "\\d{4,6}")
-        String crm,
-        @NotNull
-        Especialidade especialidade,
+        String cpf,
         @NotNull @Valid EnderecoDTO endereco) {
 }

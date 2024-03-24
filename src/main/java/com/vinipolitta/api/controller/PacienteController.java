@@ -1,6 +1,7 @@
 package com.vinipolitta.api.controller;
 
-import com.vinipolitta.api.paciente.*;
+import com.vinipolitta.api.domain.paciente.*;
+
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

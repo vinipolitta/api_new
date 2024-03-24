@@ -1,4 +1,4 @@
-package com.vinipolitta.api.medico;
+package com.vinipolitta.api.domain.medico;
 
 public enum Especialidade {
     ORTOPEDIA,
