@@ -52,7 +52,6 @@ public class MedicoController {
     public ResponseEntity atualizar(@RequestBody @Valid AtualizarMedicoDTO dados) {
         var medico = repository.getReferenceById(dados.id());
         medico.atualziarInfos(dados);
-
         return ResponseEntity.ok(new DetalhamentoMedicoDTO(medico));
 
 
