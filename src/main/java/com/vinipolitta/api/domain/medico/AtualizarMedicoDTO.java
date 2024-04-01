@@ -9,6 +9,7 @@ public record AtualizarMedicoDTO(
         String nome,
         String telefone,
         String email,
-        EnderecoDTO endereco
+        EnderecoDTO endereco,
+        Especialidade especialidade
 ) {
 }

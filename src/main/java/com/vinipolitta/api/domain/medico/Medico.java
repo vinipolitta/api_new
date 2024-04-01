@@ -51,6 +51,9 @@ public class Medico {
         if (dados.endereco() != null) {
             this.endereco.atualizarInfos(dados.endereco());
         }
+        if (dados.especialidade() != null) {
+            this.especialidade = dados.especialidade();
+        }
     }
 
     public void excluir() {

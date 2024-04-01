@@ -23,15 +23,10 @@ public class MedicoController {
     @Transactional
     public ResponseEntity cadastrar(@RequestBody @Valid CadastroMedicoDTO data, UriComponentsBuilder uriBuilder) {
         var medico = new Medico(data);
-
         repository.save(medico);
-
         var uri = uriBuilder.path("/medicos/{id}").buildAndExpand(medico.getId()).toUri();
-
         var dto = new DetalhamentoMedicoDTO(medico);
-
         return ResponseEntity.created(uri).body(dto);
-
     }
 
     @GetMapping
